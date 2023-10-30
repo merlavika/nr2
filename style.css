@@ -3,4 +3,12 @@ body {
 }
 h1 {
     text-align: center;
+}       
+.head1{
+    background-color: aqua;
+}
+
+.head2{
+    background-color: bisque;
+    color:rgb(194, 215, 152)
 }

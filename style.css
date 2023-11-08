@@ -12,3 +12,34 @@ h1 {
     background-color: bisque;
     color:rgb(194, 215, 152)
 }
+body{
+    padding: 20 px;
+}
+.header {
+    background-color: rgb(108, 131, 221);
+    font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.content {
+    background: #9af7ff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background: #184282;
+    color: aqua;
+    padding: 10px;
+}
+
+.bold {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: yellow;
+}

@@ -1,4 +1,5 @@
  body{
+    background-color: rgb(194, 215, 152);
    table {
             border-collapse: collapse;
             width: 100%;
@@ -25,11 +26,8 @@
         }
         .scientific-name{ 
             font-style:italic;
-        }     }
-   
-body {
-    background-color: rgb(194, 215, 152);
-}
+        }     
+    
 h1 {
     text-align: center;
 }       
@@ -41,45 +39,20 @@ h1 {
     background-color: bisque;
     color:rgb(194, 215, 152)
 }
-
-body{
     title{
         text-align: center;
         color: red;
     }
-    .table {
-             border-collapse: collapse;
-             width: 100%;
-         }
-         th, td {
-             border: 1px solid black;
-             padding: 8px;
-             text-align: center;
-         }
-         body {
-             background-color: #FFD1AA;
-             font-size: 18px;
-         }
-         h1{
-             color:#003333;
-         }
-         h2{
-             color:#162955;
-         }
-         .endangered {
+     .endangered {
              color:red;
          }
-         .threatened {
+    .threatened {
              color:OrangeRed;
          }
-         .scientific-name{ 
+    .scientific-name{ 
              font-style:italic;
-         }     }
-    
- body {
-     background-color: rgb(194, 215, 152);
- }
- h1 {
+         }    
+     h1 {
      text-align: center;
  }       
  .head1{
@@ -121,3 +94,4 @@ body{
      font-weight: 900;
      color: yellow;
  }
+}

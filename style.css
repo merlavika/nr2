@@ -1,4 +1,13 @@
- body {
+  body{
+   table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }body {
             background-color: #FFD1AA;
             font-size: 18px;
         }
@@ -16,7 +25,8 @@
         }
         .scientific-name{ 
             font-style:italic;
-        }
+        }     }
+   
 body {
     background-color: rgb(194, 215, 152);
 }

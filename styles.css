@@ -89,6 +89,7 @@ th, td {
 
 /* Style the first list item in the navigation */
 nav ul li:first-child a {
+    text-align: center;
     font-weight: bold;
   }
   
@@ -100,17 +101,20 @@ nav ul li:first-child a {
   /* Style even-numbered articles in the main content section */
   .main-content article:nth-child(even) {
     background-color: #f2f2f2;
+    text-align: center;
   }
   
   /* Style links when hovered over */
   a:hover {
     text-decoration: underline;
+    text-align: center;
   }
   
   /* Pseudo-elements */
   
   /* Add a decorative line above the footer */
   footer::before {
+    text-align: center;
     content: "";
     display: block;
     border-top: 2px solid #3498db;
@@ -119,12 +123,14 @@ nav ul li:first-child a {
   
   /* Style the first letter of each article */
   .main-content article p::first-letter {
+    text-align: center;
     font-size: 1.5em;
     color: #e67e22;
   }
   
   /* Add a background color to the header */
   header::after {
+    text-align: center;
     content: "";
     display: block;
     background-color: #2ecc71;
@@ -133,6 +139,7 @@ nav ul li:first-child a {
   
   /* Style the first line of each paragraph in the footer */
   footer p::first-line {
+    text-align: center;
     font-weight: bold;
     color: #9b59b6;
   }

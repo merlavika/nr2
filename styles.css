@@ -103,12 +103,47 @@ nav ul li:first-child a {
     background-color: #f2f2f2;
     text-align: center;
   }
-  
-  /* Style links when hovered over */
+  p+p:hover{
+    color:green;
+    font-weight: bold;
+    background-color: #f18080;
+  }
+  p:hover::before{
+    content:"Hey!";
+    color: #2ecc71;
+    font-weight: bold;
+    background-color: antiquewhite;
+
+  }
+p:active::after{
+     content: Bye!;
+    color: #94f3ac;
+    font-weight: bold;
+    background-color: antiquewhite;
+}
+p::selection{
+    background-color: #9b59b6;
+    color: #f2f2f2;
+}
+  a:link{
+    background-color: yellow;
+    color
+  }
+
   a:hover {
     text-decoration: underline;
     text-align: center;
+    background-color: #94f3ac;
+    color: #333;
+    font-weight: bold;
   }
+   
+  a:visited{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+  }
+
   
   /* Pseudo-elements */
   

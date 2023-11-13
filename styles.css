@@ -84,3 +84,56 @@ th, td {
 .endangered {
     color: orange;
 }
+
+/* Pseudo-classes */
+
+/* Style the first list item in the navigation */
+nav ul li:first-child a {
+    font-weight: bold;
+  }
+  
+  /* Style the last list item in the navigation */
+  nav ul li:last-child a {
+    color: #e74c3c;
+  }
+  
+  /* Style even-numbered articles in the main content section */
+  .main-content article:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style links when hovered over */
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Pseudo-elements */
+  
+  /* Add a decorative line above the footer */
+  footer::before {
+    content: "";
+    display: block;
+    border-top: 2px solid #3498db;
+    margin: 10px 0;
+  }
+  
+  /* Style the first letter of each article */
+  .main-content article p::first-letter {
+    font-size: 1.5em;
+    color: #e67e22;
+  }
+  
+  /* Add a background color to the header */
+  header::after {
+    content: "";
+    display: block;
+    background-color: #2ecc71;
+    height: 5px;
+  }
+  
+  /* Style the first line of each paragraph in the footer */
+  footer p::first-line {
+    font-weight: bold;
+    color: #9b59b6;
+  }
+  

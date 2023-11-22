@@ -148,4 +148,20 @@
       </footer>
     
 </body>
+
+    <body>
+
+  <button onclick="toggleVisibility()">Toggle Visibility</button>
+  <div id="targetElement" class="hidden-element">
+    This is a hidden element.
+  </div>
+
+  <script>
+    function toggleVisibility() {
+      var targetElement = document.getElementById('targetElement');
+      targetElement.classList.toggle('visible-element');
+    }
+  </script>
+
+</body>
 </html>

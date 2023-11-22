@@ -178,4 +178,23 @@ p::selection{
     font-weight: bold;
     color: #9b59b6;
   }
-  
+
+.hidden-element {
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s, opacity 0.5s;
+    }
+
+    .visible-element {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .toggle-button {
+      cursor: pointer;
+      padding: 10px;
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+    }
